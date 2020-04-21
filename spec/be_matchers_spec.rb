@@ -21,7 +21,7 @@ RSpec.describe 'be matchers' do
   end
 
   it 'can test for nil' do
-    expect(nil). be_nil
+    expect(nil).to be_nil
 
     my_hash = { a: 5 }
     expect(my_hash[:b]).to be_nil
